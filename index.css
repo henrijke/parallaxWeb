@@ -1,0 +1,64 @@
+html,body{
+
+}
+
+.wrapper{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    background: url("bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -3;
+
+}
+#position, #positionCenter{
+    color:white;
+}
+
+#mouse-center{
+    position:absolute;
+    left:50%;
+    top:50%;
+}
+#auto{
+    position:absolute;
+    left: 1100px;
+    bottom: 300px;
+    background: url("auto.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width:200px;
+    height:150px;
+    z-index:-2;
+
+}
+#pedestrian{
+    position:absolute;
+    right: 100px;
+    bottom: 50px;
+    background: url("kulkija.png");
+    background-repeat: no-repeat;
+    background-size: 120px;
+    width:120px;
+    height:400px;
+    z-index:0;
+
+
+}
+#scooter{
+    position:absolute;
+    left: 350px;
+    bottom: 200px;
+    background: url("mopo.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    width:400px;
+    height:300px;
+    z-index:-1;
+
+}
