@@ -18,7 +18,7 @@ wrapper.addEventListener('mousemove',(event)=>{
   position.innerHTML =` X:${coordX}  Y:${coordY}`;
 
   positionCenter.innerHTML = ` CenterX ${centerX} CenterY ${centerY}  `;
-  auto.style.transform = 'translateX(' + centerX/100 + '%) translateY(' + centerY/100 + '%)';
-  pedestrian.style.transform = 'translateX(' + coordX/100 + '%) translateY(' + coordY/100 + '%)';
+  auto.style.transform = 'translateX(' + coordX/350 + '%) translateY(' + coordY/350 + '%)';
+  pedestrian.style.transform = 'translateX(' + coordX/200 + '%) translateY(' + coordY/200 + '%)';
   scooter.style.transform = 'translateX(' + coordX/100 + '%) translateY(' + coordY/100 + '%)';
 });
